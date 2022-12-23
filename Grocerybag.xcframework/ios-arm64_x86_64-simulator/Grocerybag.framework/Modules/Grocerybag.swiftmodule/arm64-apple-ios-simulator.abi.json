@@ -1,0 +1,326 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Grocerybag",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Basket",
+        "printedName": "Basket",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Grocerybag6BasketV5itemsSDySSSiGvp",
+            "mangledName": "$s10Grocerybag6BasketV5itemsSDySSSiGvp",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Grocerybag6BasketV5itemsSDySSSiGvg",
+                "mangledName": "$s10Grocerybag6BasketV5itemsSDySSSiGvg",
+                "moduleName": "Grocerybag",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Basket",
+                "printedName": "Grocerybag.Basket",
+                "usr": "s:10Grocerybag6BasketV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Grocerybag6BasketVACycfc",
+            "mangledName": "$s10Grocerybag6BasketVACycfc",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Grocerybag6BasketV5countSivp",
+            "mangledName": "$s10Grocerybag6BasketV5countSivp",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Grocerybag6BasketV5countSivg",
+                "mangledName": "$s10Grocerybag6BasketV5countSivg",
+                "moduleName": "Grocerybag",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalNumItems",
+            "printedName": "totalNumItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Grocerybag6BasketV13totalNumItemsSivp",
+            "mangledName": "$s10Grocerybag6BasketV13totalNumItemsSivp",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Grocerybag6BasketV13totalNumItemsSivg",
+                "mangledName": "$s10Grocerybag6BasketV13totalNumItemsSivg",
+                "moduleName": "Grocerybag",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addItem",
+            "printedName": "addItem(_:occurences:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Grocerybag6BasketV7addItem_10occurencesySS_SitF",
+            "mangledName": "$s10Grocerybag6BasketV7addItem_10occurencesySS_SitF",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeItem",
+            "printedName": "removeItem(_:occurences:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Grocerybag6BasketV10removeItem_10occurencesySS_SitF",
+            "mangledName": "$s10Grocerybag6BasketV10removeItem_10occurencesySS_SitF",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "counts",
+            "printedName": "counts(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Grocerybag6BasketV6counts3forSiSS_tF",
+            "mangledName": "$s10Grocerybag6BasketV6counts3forSiSS_tF",
+            "moduleName": "Grocerybag",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Grocerybag6BasketV",
+        "mangledName": "$s10Grocerybag6BasketV",
+        "moduleName": "Grocerybag",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jaymehta\/Projects\/iOS\/XCFrameworkCreateExample\/Grocerybag\/Basket.swift",
+      "kind": "Dictionary",
+      "offset": 131,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jaymehta\/Projects\/iOS\/XCFrameworkCreateExample\/Grocerybag\/Basket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jaymehta\/Projects\/iOS\/XCFrameworkCreateExample\/Grocerybag\/Basket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

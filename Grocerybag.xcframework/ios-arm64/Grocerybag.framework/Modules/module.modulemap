@@ -1,0 +1,4 @@
+framework module Grocerybag {
+  header "Grocerybag-Swift.h"
+  requires objc
+}

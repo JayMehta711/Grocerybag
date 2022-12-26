@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "Grocerybag"
-  spec.version            = "1.0.0"
+  spec.version            = "1.1.0"
   spec.summary            = "Grocerybag Library for iOS apps"
   spec.description        = "Grocerybag framework provide basket functionality in that you can add, remove items."
   spec.homepage           = "https://github.com/JayMehta711/Grocerybag/"
@@ -19,4 +19,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Grocerybag.xcframework/**/*.','Grocerybag.xcframework/**/*.{h,m}'
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   # spec.frameworks = 'UIKit', 'Foundation'
+  spec.ios.vendored_frameworks = 'Grocerybag.xcframework'
 end
